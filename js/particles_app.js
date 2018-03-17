@@ -1,25 +1,10 @@
-/* -----------------------------------------------
-/* How to use? : Check the GitHub README
-/* ----------------------------------------------- */
-
-/* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
-/*
-particlesJS.load('particles-js', 'particles.json', function() {
-  console.log('particles.js loaded - callback');
-});
-*/
-
-/* Otherwise just put the config content (json): */
-
-particlesJS('particles-js',
-
-  {
+particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 200, // edited (80)
+        "value": 200, // default: 80
         "density": {
           "enable": true,
-          "value_area": 500 // edited (800)
+          "value_area": 900 // default: 800
         }
       },
       "color": {
@@ -44,18 +29,18 @@ particlesJS('particles-js',
         "value": 0.5,
         "random": false,
         "anim": {
-          "enable": false,
+          "enable": true, // default: false
           "speed": 1,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 5,
+        "value": 5, // default: 5
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": true, // default: false
+          "speed": 30, // default: 20
           "size_min": 0.1,
           "sync": false
         }
@@ -69,11 +54,11 @@ particlesJS('particles-js',
       },
       "move": {
         "enable": true,
-        "speed": 1, // edited (6)
+        "speed": 3, // default: 6
         "direction": "none",
-        "random": false,
+        "random": true, // default: false
         "straight": false,
-        "out_mode": "out",
+        "out_mode": "bounce", // default: out
         "attract": {
           "enable": false,
           "rotateX": 600,
@@ -103,13 +88,13 @@ particlesJS('particles-js',
         },
         "bubble": {
           "distance": 400,
-          "size": 40, // edited (40)
+          "size": 40,
           "duration": 2,
           "opacity": 8,
           "speed": 3
         },
         "repulse": {
-          "distance": 200
+          "distance": 100 // default: 200
         },
         "push": {
           "particles_nb": 4
@@ -129,5 +114,4 @@ particlesJS('particles-js',
       "background_size": "cover"
     }
   }
-
 );
