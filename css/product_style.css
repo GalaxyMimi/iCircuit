@@ -14,7 +14,8 @@ body {
     height: 500px;
     margin: 30px 50px;
     /* EDIT */
-    margin-top: 65%;
+    margin-top: 50px;
+    float: left;
 }
 
 .card {
