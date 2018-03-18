@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <title>iCircuit</title>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/nav_style.css">
+    <link rel="stylesheet" type="text/css" href="css/home_style.css">
+    <link rel="stylesheet" type="text/css" href="css/about_style.css">
     <link rel="stylesheet" type="text/css" href="css/particle_style.css">
     <link rel="stylesheet" type="text/css" href="css/product_style.css">
 
@@ -16,38 +17,38 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/regular.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/brands.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css">
+
     <!-- Scripts -->
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
 
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- ########################################################## -->
     <!-- #                        Header                          # -->
     <!-- ########################################################## -->
     <header>
-        <!-- LOGO -->
-        <div id="logo">
-            <a href="#Home"><img src="imgs/logo.png" alt="Logo"></a>
-        </div>
+      <!-- LOGO -->
+      <div id="logo">
+        <a href="#Home"><img src="imgs/logo.png" alt="Logo"></a>
+      </div>
 
-        <!-- KONTAKT -->
-        <div id="contact_icon">
-            <div class="contact_icon"><a href="mailto:i.circuit@gmail.com"><i class="fa fa-envelope"></i></a></div>
-            <div class="contact_icon"><a href="https://www.google.de/maps/place/Gymnasium+Kenzingen/@48.1943893,7.7676814,17z/data=!3m1!4b1!4m5!3m4!1s0x47913cec7d54c345:0x3b2c405ec19e2a80!8m2!3d48.1943857!4d7.7698701" target="_blank"><i class="fa fa-map-marker"></i></a></div>
-        </div>
+      <!-- KONTAKT -->
+      <div id="contact_icon">
+        <div class="contact_icon"><a href="mailto:i.circuit@gmail.com"><i class="fa fa-envelope"></i></a></div>
+        <div class="contact_icon"><a href="https://www.google.de/maps/place/Gymnasium+Kenzingen/@48.1943893,7.7676814,17z/data=!3m1!4b1!4m5!3m4!1s0x47913cec7d54c345:0x3b2c405ec19e2a80!8m2!3d48.1943857!4d7.7698701" target="_blank"><i class="fa fa-map-marker"></i></a></div>
+      </div>
 
-        <!-- NAVIGATION -->
-        <nav>
-            <ul>
-                <li><a href="#Home">Home</a> |</li>
-                <li><a href="#About">About</a> |</li>
-                <li><a href="#Products">Products</a> |</li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-
+      <!-- NAVIGATION -->
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a> |</li>
+          <li><a href="#About">About</a> |</li>
+          <li><a href="#Products">Products</a> |</li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- ########################################################## -->
@@ -55,16 +56,16 @@
     <!-- ########################################################## -->
 
     <section id="Home" class="page">
+      <div id="particles-js" class="hintergrund">
         <h2>Hello!</h2>
         <p>Since the humanity has started to polute the planet Earth, our future existence has got in danger. That's why so many people are trying to change their lives, to get as environmental friendly as possible. But sometimes it's hard to do big decisions,
             so we started our company iCircuit, to give you a possibility to make a small but very important step in the right direction.
         </p>
-        <a href="#About" class="button">Next</a>
+        <a href="#About" id="button">Next</a>
+      </div>
 
-        <div id="particles-js" class="hintergrund"></div>
-
-        <script type="text/javascript" src="js/particles.js"></script>
-        <script type="text/javascript" src="js/particles_app.js"></script>
+      <script type="text/javascript" src="js/particles.js"></script>
+      <script type="text/javascript" src="js/particles_app.js"></script>
     </section>
 
     <!-- ########################################################## -->
@@ -72,306 +73,312 @@
     <!-- ########################################################## -->
 
     <section id="About" class="page">
+      <!-- Headline -->
+      <h2 id="title">About iCircuit</h2>
 
-        <!-- Headline -->
-        <h2>About iCircuit</h2>
+      <!-- COLUMN Cards -->
+      <div class="about_container">
+        <div class="column">
+          <div class="title">
+            <i class="fas fa-bullhorn"></i>
+            <h2 class="title_text"></h2>
+          </div>
 
-        <!-- COLUMN Cards -->
-        <div class="about_container">
-            <div class="column">
-                <div class="title">
-                    <i class="fas fa-bullhorn"></i>
-                    <h2></h2>
-                </div>
-
-                <div class="content">
-                    <ul>
-                        <li>
-                            <p>We try to produce and sell energy saving devices as convenient as possible.</p>
-                        </li>
-                        <li>
-                            <p>Also, we make presentations in schools and companies to clarify about how to save energy.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="title">
-                    <i class="fab fa-slack-hash"></i>
-                    <h2></h2>
-                </div>
-
-                <div class="content">
-                    <ul>
-                        <li>
-                            <p>We want to make renewable energy a trend.</p>
-                        </li>
-                        <li>
-                            <p>Our solar powered #WorldSavers merch was designed - amongst other things - to show young people that the energy saving lifestyle is a cool thing.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="title">
-                    <i class="fa fa-money-bill-alt"></i>
-                    <h2></h2>
-                </div>
-
-                <div class="content">
-                    <ul>
-                        <li>
-                            <p>Throgh our donation button you get a possibility to support us by making our product cheap and buyable for everyone.</p>
-                        </li>
-                        <li>
-                            <p>We also cooperate with some companies in Germany which support us with some money.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          <div class="content">
+            <ul>
+              <li>
+                <p>We try to produce and sell energy saving devices as convenient as possible.</p>
+              </li>
+              <li>
+                <p>Also, we make presentations in schools and companies to clarify about how to save energy.</p>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="column">
+          <div class="title">
+            <i class="fab fa-slack-hash"></i>
+            <h2 class="title_text"></h2>
+          </div>
+
+          <div class="content">
+            <ul>
+              <li>
+                <p>We want to make renewable energy a trend.</p>
+              </li>
+              <li>
+                <p>Our solar powered #WorldSavers merch was designed - amongst other things - to show young people that the energy saving lifestyle is a cool thing.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="title">
+            <i class="fa fa-money-bill-alt"></i>
+            <h2 class="title_text"></h2>
+          </div>
+
+          <div class="content">
+            <ul>
+              <li>
+                <p>Throgh our donation button you get a possibility to support us by making our product cheap and buyable for everyone.</p>
+              </li>
+              <li>
+                <p>We also cooperate with some companies in Germany which support us with some money.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ########################################################## -->
     <!-- #                        Products                        # -->
     <!-- ########################################################## -->
 
-    <section id="Products">
-        <div class="container">
-            <div class="card">
-                <div class="card-head">
-                    <img src="imgs/logo.png" alt="logo" class="card-logo">
-                    <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
+    <section id="Products" class="page">
+      <div class="container">
+        <div class="card">
+          <div class="card-head">
+              <img src="imgs/logo.png" alt="logo" class="card-logo">
+              <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
 
-                    <div class="product-detail">
-                        <h2></h2>
-                    </div>
-                    <span class="back-text">
-               </span>
-                </div>
-                <div class="card-body">
-                    <div class="product-desc">
-                        <span class="product-title">
-                   worldsaver<b>jacket</b>
-                   <span class="badge">
-                     New
-                   </span>
-                        </span>
-                        <span class="product-caption">
-                   Basket Ball Collection
-                 </span>
-                        <span class="product-rating">
-                   <i class="fa fa-star"></i>
-                   <i class="fa fa-star"></i>
-                   <i class="fa fa-star"></i>
-                   <i class="fa fa-star"></i>
-                   <i class="fa fa-star grey"></i>
-                 </span>
-                    </div>
-                    <div class="product-properties">
-                        <span class="product-size">
-                   <h4>Size</h4>
-                   <ul class="ul-size">
-                     <li><a href="#">XS</a></li>
-                     <li><a href="#">S</a></li>
-                     <li><a href="#" class="active">M</a></li>
-                     <li><a href="#">L</a></li>
-                     <li><a href="#">XL</a></li>
-                   </ul>
-                 </span>
-                        <span class="product-color">
-                   <h4>Colour</h4>
-                   <ul class="ul-color">
-                     <li><a href="#" class="orange active"></a></li>
-                     <li><a href="#" class="green"></a></li>
-                     <li><a href="#" class="blue"></a></li>
-                   </ul>
-                 </span>
-                        <span class="product-price">
-                   EUR<b>49,95</b>
-                 </span>
-                    </div>
-                </div>
+              <div class="product-detail"><h2></h2></div>
+              <span class="back-text"></span>
+          </div>
+
+          <div class="card-body">
+            <div class="product-desc">
+              <span class="product-title">
+                worldsaver<b>jacket</b>
+                <span class="badge">
+                  New
+                </span>
+              </span>
+
+              <span class="product-caption">
+                Basket Ball Collection
+              </span>
+
+              <span class="product-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star grey"></i>
+              </span>
             </div>
-        </div>
+            <div class="product-properties">
+              <span class="product-size">
+                <h4>Size</h4>
+                <ul class="ul-size">
+                  <li><a href="#">XS</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#" class="active">M</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">XL</a></li>
+                </ul>
+              </span>
 
-        <div class="container">
-            <div class="card">
-                <div class="card-head">
-                    <img src="imgs/logo.png" alt="logo" class="card-logo">
-                    <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
+              <span class="product-color">
+                <h4>Colour</h4>
+                <ul class="ul-color">
+                  <li><a href="#" class="orange active"></a></li>
+                  <li><a href="#" class="green"></a></li>
+                  <li><a href="#" class="blue"></a></li>
+                </ul>
+              </span>
 
-                    <div class="product-detail">
-                        <h2></h2>
-                    </div>
-                    <span class="back-text">
-             </span>
-                </div>
-                <div class="card-body">
-                    <div class="product-desc">
-                        <span class="product-title">
-                 worldsaver<b>jacket</b>
-                 <span class="badge">
-                   New
-                 </span>
-                        </span>
-                        <span class="product-caption">
-                 Basket Ball Collection
-               </span>
-                        <span class="product-rating">
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star grey"></i>
-               </span>
-                    </div>
-                    <div class="product-properties">
-                        <span class="product-size">
-                        <h4>Size</h4>
-                        <ul class="ul-size">
-                          <li><a href="#">XS</a></li>
-                          <li><a href="#">S</a></li>
-                          <li><a href="#" class="active">M</a></li>
-                          <li><a href="#">L</a></li>
-                          <li><a href="#">XL</a></li>
-                        </ul>
-                      </span>
-                        <span class="product-color">
-                        <h4>Colour</h4>
-                        <ul class="ul-color">
-                          <li><a href="#" class="orange active"></a></li>
-                          <li><a href="#" class="green"></a></li>
-                          <li><a href="#" class="blue"></a></li>
-                        </ul>
-                      </span>
-                        <span class="product-price">
-                        EUR<b>49,95</b>
-                      </span>
-                    </div>
-                </div>
+              <span class="product-price">
+                EUR<b>49,95</b>
+              </span>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="container">
-            <div class="card">
-                <div class="card-head">
-                    <img src="imgs/logo.png" alt="logo" class="card-logo">
-                    <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
+      <div class="container">
+        <div class="card">
+          <div class="card-head">
+              <img src="imgs/logo.png" alt="logo" class="card-logo">
+              <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
 
-                    <div class="product-detail">
-                        <h2></h2>
-                    </div>
-                    <span class="back-text">
-             </span>
-                </div>
-                <div class="card-body">
-                    <div class="product-desc">
-                        <span class="product-title">
-                 worldsaver<b>jacket</b>
-                 <span class="badge">
-                   New
-                 </span>
-                        </span>
-                        <span class="product-caption">
-                 Basket Ball Collection
-               </span>
-                        <span class="product-rating">
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star grey"></i>
-               </span>
-                    </div>
-                    <div class="product-properties">
-                        <span class="product-size">
-                        <h4>Size</h4>
-                        <ul class="ul-size">
-                          <li><a href="#">XS</a></li>
-                          <li><a href="#">S</a></li>
-                          <li><a href="#" class="active">M</a></li>
-                          <li><a href="#">L</a></li>
-                          <li><a href="#">XL</a></li>
-                        </ul>
-                      </span>
-                        <span class="product-color">
-                        <h4>Colour</h4>
-                        <ul class="ul-color">
-                          <li><a href="#" class="orange active"></a></li>
-                          <li><a href="#" class="green"></a></li>
-                          <li><a href="#" class="blue"></a></li>
-                        </ul>
-                      </span>
-                        <span class="product-price">
-                        EUR<b>49,95</b>
-                      </span>
-                    </div>
-                </div>
+              <div class="product-detail"><h2></h2></div>
+              <span class="back-text"></span>
+          </div>
+
+          <div class="card-body">
+            <div class="product-desc">
+              <span class="product-title">
+                worldsaver<b>jacket</b>
+                <span class="badge">
+                  New
+                </span>
+              </span>
+
+              <span class="product-caption">
+                Basket Ball Collection
+              </span>
+
+              <span class="product-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star grey"></i>
+              </span>
             </div>
-        </div>
+            <div class="product-properties">
+              <span class="product-size">
+                <h4>Size</h4>
+                <ul class="ul-size">
+                  <li><a href="#">XS</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#" class="active">M</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">XL</a></li>
+                </ul>
+              </span>
 
-        <div class="container">
-            <div class="card">
-                <div class="card-head">
-                    <img src="imgs/logo.png" alt="logo" class="card-logo">
-                    <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
+              <span class="product-color">
+                <h4>Colour</h4>
+                <ul class="ul-color">
+                  <li><a href="#" class="orange active"></a></li>
+                  <li><a href="#" class="green"></a></li>
+                  <li><a href="#" class="blue"></a></li>
+                </ul>
+              </span>
 
-                    <div class="product-detail">
-                        <h2></h2>
-                    </div>
-                    <span class="back-text">
-             </span>
-                </div>
-                <div class="card-body">
-                    <div class="product-desc">
-                        <span class="product-title">
-                          worldsaver<b>jacket</b>
-                          <span class="badge">
-                            New
-                          </span>
-                        </span>
-                        <span class="product-caption">
-                          Basket Ball Collection
-                        </span>
-                        <span class="product-rating">
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star"></i>
-                 <i class="fa fa-star grey"></i>
-               </span>
-                    </div>
-                    <div class="product-properties">
-                        <span class="product-size">
-                        <h4>Size</h4>
-                        <ul class="ul-size">
-                          <li><a href="#">XS</a></li>
-                          <li><a href="#">S</a></li>
-                          <li><a href="#" class="active">M</a></li>
-                          <li><a href="#">L</a></li>
-                          <li><a href="#">XL</a></li>
-                        </ul>
-                      </span>
-                        <span class="product-color">
-                        <h4>Colour</h4>
-                        <ul class="ul-color">
-                          <li><a href="#" class="orange active"></a></li>
-                          <li><a href="#" class="green"></a></li>
-                          <li><a href="#" class="blue"></a></li>
-                        </ul>
-                      </span>
-                        <span class="product-price">
-                        EUR<b>49,95</b>
-                      </span>
-                    </div>
-                </div>
+              <span class="product-price">
+                EUR<b>49,95</b>
+              </span>
             </div>
+          </div>
         </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="card-head">
+              <img src="imgs/logo.png" alt="logo" class="card-logo">
+              <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
+
+              <div class="product-detail"><h2></h2></div>
+              <span class="back-text"></span>
+          </div>
+
+          <div class="card-body">
+            <div class="product-desc">
+              <span class="product-title">
+                worldsaver<b>jacket</b>
+                <span class="badge">
+                  New
+                </span>
+              </span>
+
+              <span class="product-caption">
+                Basket Ball Collection
+              </span>
+
+              <span class="product-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star grey"></i>
+              </span>
+            </div>
+            <div class="product-properties">
+              <span class="product-size">
+                <h4>Size</h4>
+                <ul class="ul-size">
+                  <li><a href="#">XS</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#" class="active">M</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">XL</a></li>
+                </ul>
+              </span>
+
+              <span class="product-color">
+                <h4>Colour</h4>
+                <ul class="ul-color">
+                  <li><a href="#" class="orange active"></a></li>
+                  <li><a href="#" class="green"></a></li>
+                  <li><a href="#" class="blue"></a></li>
+                </ul>
+              </span>
+
+              <span class="product-price">
+                EUR<b>49,95</b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="card">
+          <div class="card-head">
+              <img src="imgs/logo.png" alt="logo" class="card-logo">
+              <img src="imgs/solarkleidung/4.jpeg" alt="Solarjacket" class="product-img">
+
+              <div class="product-detail"><h2></h2></div>
+              <span class="back-text"></span>
+          </div>
+
+          <div class="card-body">
+            <div class="product-desc">
+              <span class="product-title">
+                worldsaver<b>jacket</b>
+                <span class="badge">
+                  New
+                </span>
+              </span>
+
+              <span class="product-caption">
+                Basket Ball Collection
+              </span>
+
+              <span class="product-rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star grey"></i>
+              </span>
+            </div>
+            <div class="product-properties">
+              <span class="product-size">
+                <h4>Size</h4>
+                <ul class="ul-size">
+                  <li><a href="#">XS</a></li>
+                  <li><a href="#">S</a></li>
+                  <li><a href="#" class="active">M</a></li>
+                  <li><a href="#">L</a></li>
+                  <li><a href="#">XL</a></li>
+                </ul>
+              </span>
+
+              <span class="product-color">
+                <h4>Colour</h4>
+                <ul class="ul-color">
+                  <li><a href="#" class="orange active"></a></li>
+                  <li><a href="#" class="green"></a></li>
+                  <li><a href="#" class="blue"></a></li>
+                </ul>
+              </span>
+
+              <span class="product-price">
+                EUR<b>49,95</b>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-
 
 
     <br>
@@ -383,16 +390,16 @@
 
     <!-- About text -->
     <p id="text">
-        Hello! Since the humanity has started to polute the planet Earth, our future existence has got in danger. That's why so many people are trying to change their lives, to get as environmental friendly as possible. But sometimes it's hard to do big decisions,
-        so we started our company iCircuit, to give you a possibility to make a small but very important step in the right direction. >>About iCircuit > Making renewable energy available to everyone
-        <!-- OLD: -->
-        Trying to produce and sell energy saving devices as cheap as possible. We are also teaching students at schools how to save energy.
+          Hello! Since the humanity has started to polute the planet Earth, our future existence has got in danger. That's why so many people are trying to change their lives, to get as environmental friendly as possible. But sometimes it's hard to do big decisions,
+          so we started our company iCircuit, to give you a possibility to make a small but very important step in the right direction. >>About iCircuit > Making renewable energy available to everyone
+          <!-- OLD: -->
+          Trying to produce and sell energy saving devices as cheap as possible. We are also teaching students at schools how to save energy.
 
-        <!-- NEW: -->
-        We try to produce and sell energy saving devices as cheap as possible. Also, we make presentations in schools and companies to clarify about how to save energy. > Letting our users help poor people Throgh our donation button you get a possibility to support
-        us by making our product cheap and buyable for everyone. > Making renewable energy a trend Our solar powered #WorldSavers merch was designed - amongst other things - to show young people that the energy saving lifestyle is a cool thing.
+          <!-- NEW: -->
+          We try to produce and sell energy saving devices as cheap as possible. Also, we make presentations in schools and companies to clarify about how to save energy. > Letting our users help poor people Throgh our donation button you get a possibility to support
+          us by making our product cheap and buyable for everyone. > Making renewable energy a trend Our solar powered #WorldSavers merch was designed - amongst other things - to show young people that the energy saving lifestyle is a cool thing.
     </p>
     <!-- ** END ** -->
-</body>
+  </body>
 
 </html>

@@ -1,7 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+#About #title {
+  margin-top: 1.5rem;
+  margin-left: 28.5rem;
+  margin-bottom: 4rem;
+  font-size: 3.5rem;
+
+}
+
+#About .title_text {
+  margin: 25px 0;
+}
+
 .about_container {
     width: 1180px;
-    margin: 100px auto;
+    margin: 10px auto;
     box-sizing: border-box;
 }
 

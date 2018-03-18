@@ -1,0 +1,22 @@
+#Home .hintergrund {
+  position: relative;
+  text-align: center;
+}
+
+#Home .hintergrund h2 {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 49%;
+}
+
+#Home .hintergrund p {
+  position: absolute;
+  margin-top: 22%;
+
+}
+
+#Home .hintergrund a#button {
+  position: absolute;
+  margin-top: 35%;
+  color: #fff;
+}
