@@ -20,6 +20,7 @@ body {
 .card {
   border-radius: 25px;
   /* box-shadow: -11px 11px 1px rgba(200, 200, 200, 0.3); */
+  transition: all 500ms;
 }
 
 .card:hover {
@@ -252,6 +253,7 @@ body {
   margin-left: -5px;
   box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
   cursor: pointer;
+  transition: all 500ms;
 }
 
 .product-price b {
