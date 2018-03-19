@@ -20,3 +20,115 @@ a {
 #text {
     clear: both;
 }
+
+#Contact {
+  height: 35rem;
+  clear: both;
+  position: relative;
+  background: url(../imgs/contact.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Contact h2 {
+  clear: both;
+  text-align: center;
+  padding-top: 175px;
+  font-size: 3.5rem;
+}
+
+#Contact .kontakt {
+  width: 100%;
+  text-align: center;
+}
+
+#Contact .kontakt ul {
+  margin: 75px 0 0 0;
+  padding: 0;
+}
+
+#Contact .kontakt ul li {
+  margin: 0 0 15px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 17px;
+}
+
+#Contact .kontakt ul li a {
+  text-decoration: underline;
+  color: #ccc;
+}
+
+#Contact .kontakt ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+#Contact footer {
+  top: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  padding: 20px 0 0 0;
+  font-size: 10px;
+}
+
+#Contact footer .logo {
+  width: 100%;
+  height: auto;
+}
+
+#Contact footer .logo img {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  width: 3.5%;
+  height: auto;
+}
+
+#Contact footer #copyright {
+  margin: 5px 0 0 0;
+  padding: 0;
+  color: #fff;
+}
+
+#Contact footer #meta_nav {
+  margin: 0;
+}
+
+#Contact footer #meta_nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#Contact footer #meta_nav ul li {
+  margin: 0;
+  padding: 0 2px 0 2px;
+  list-style: none;
+  display: inline;
+  border-right: 1px solid #666;
+}
+
+#Contact footer #meta_nav ul li:last-child {
+  border: none;
+}
+
+#Contact footer #meta_nav ul a {
+  color: #fff;
+}
+
+#Contact footer #copyright {
+  color: #ccc;
+}
+
+#Contact footer #copyright a {
+  color: #fff;
+}
+
+#Contact footer #copyright a:hover {
+  color: #ccc;
+  text-decoration: underline;
+}

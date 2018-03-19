@@ -11,12 +11,19 @@ body {
     background: #080e19;
 } */
 
+#Products h2 {
+  margin-top: 56%;
+  margin-left: 41%;
+  margin-bottom: 4%;
+  font-size: 3.5rem;
+}
+
 .container {
     width: 280px;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 0;
     margin-right: 2%;
-    margin-left: 2%;
+    margin-left: 7.5%;
     margin-bottom: 50px;
     /* EDIT */
     float: left;
