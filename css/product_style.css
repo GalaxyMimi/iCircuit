@@ -11,8 +11,12 @@ body {
     background: #080e19;
 } */
 
+#Products #products {
+  margin-top: 50%;
+}
+
 #Products h2 {
-  margin-top: 56%;
+  margin-top: 58%;
   margin-left: 41%;
   margin-bottom: 4%;
   font-size: 3.5rem;
@@ -24,7 +28,7 @@ body {
     margin-top: 0;
     margin-right: 2%;
     margin-left: 7.5%;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     /* EDIT */
     float: left;
 }
@@ -50,6 +54,15 @@ body {
     overflow: hidden;
 }
 
+.card-head-lamp {
+  position: relative;
+  height: 252px;
+  background: #fff;
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#F5F5F5', endColorstr='#B2EBF2', GradientType=1);
+  border-radius: 25px 25px 0 0;
+  overflow: hidden;
+}
+
 .card-logo {
     width: 55px;
     margin: 20px;
@@ -67,6 +80,75 @@ body {
 
 .product-img:hover {
     transform: scale(1.05);
+}
+
+.product-img2 {
+  position: absolute;
+  left: 0;
+  margin-top: 45px;
+  margin-left: -40px;
+  width: 350px;
+  height: auto;
+  transition: all 300ms;
+}
+
+.product-img2:hover {
+  transform: scale(1.05);
+}
+
+.product-img3 {
+  position: absolute;
+  left: 0;
+  margin-top: 45px;
+  margin-left: -40px;
+  width: 370px;
+  height: auto;
+  transition: all 300ms
+}
+
+.product-img3:hover {
+  transform: scale(1.05);
+}
+
+.product-img4 {
+  position: absolute;
+  left: 0;
+  margin-top: -25px;
+  margin-left: -30px;
+  width: 350px;
+  height: auto;
+  transition: all 300ms;
+}
+
+.product-img4:hover {
+  transform: scale(1.05);
+}
+
+.product-img5 {
+  position: absolute;
+  left: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 250px;
+  height: auto;
+  transition: all 300ms;
+}
+
+.product-img5:hover {
+  transform: scale(1.05);
+}
+
+.product-img6 {
+  position: absolute;
+  left: 0;
+  margin-left: -75px;
+  width: 375px;
+  height: auto;
+  transition: all 300ms;
+}
+
+.product-img6:hover {
+  transform: scale(1.05);
 }
 
 .product-detail {
@@ -99,6 +181,13 @@ body {
     background: #fff;
     border-radius: 0 0 25px 25px;
     color: #000;
+}
+
+.card-body-lamp1 {
+  height: 200px;
+  background: #fff;
+  border-radius: 0 0 25px 25px;
+  color: #000;
 }
 
 .product-title {
@@ -236,6 +325,22 @@ body {
     background: #1565C0;
 }
 
+.ul-color li a.grey {
+  background: #BDBDBD;
+}
+
+.ul-color li a.darkblue {
+  background: #1A237E;
+}
+
+.ul-color li a.white {
+  background: #EEEEEE;
+}
+
+.ul-color li a.darkgrey {
+  background: #212121;
+}
+
 .ul-color li a:hover:after {
     position: absolute;
     content: '';
@@ -284,4 +389,20 @@ body {
 .product-price b {
     margin-left: 5px;
     color: #fff;
+}
+
+#Products .moreButton {
+  color: #ecf0f1;
+  text-decoration: none;
+  padding: 7px 12px 7px 12px;
+  border: 1px solid #ecf0f1;
+  border-radius: 5px;
+  text-align: center;
+  clear: both;
+  margin-left: 48%;
+  transition: all 300ms;
+}
+
+#Products .moreButton:hover {
+  transform: scale(1.05);
 }
